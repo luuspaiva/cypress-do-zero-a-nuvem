@@ -1,28 +1,39 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# Estudo de Automação de Testes
 
-👋 Seja bem-vindo(a)!
+Este projeto faz parte do curso "Cypress do Zero a Nuvem" oferecido por Walmyr na escola Talking About Testing. O objetivo é aprender e aplicar conceitos de automação de testes utilizando o Cypress.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Tecnologias Utilizadas
 
-## O que você vai aprender?
+- **Cypress**: Framework de testes end-to-end para aplicações web.
+- **JavaScript**: Linguagem de programação utilizada para escrever os testes.
+- **Node.js**: Ambiente de execução para JavaScript.
+- **NPM**: Gerenciador de pacotes para dependências do projeto.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+## Estrutura do Projeto
 
-## Vamos começar?
+- `cypress/`: Contém os testes automatizados e configurações do Cypress.
+    - `e2e/`: Diretório onde os testes de integração são armazenados.
+    - `fixtures/`: Arquivos de dados estáticos utilizados nos testes.
+    - `plugins/`: Plugins e configurações adicionais para o Cypress.
+    - `support/`: Comandos customizados e configurações globais.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Como Executar os Testes
 
-___
+1. Clone o repositório:
+     ```bash
+     git clone https://github.com/luuspaiva/cypress-do-zero-a-nuvem.git
+     ```
+2. Instale as dependências:
+     ```bash
+     npm install
+     ```
+3. Execute os testes:
+     ```bash
+     npx cypress open para rodar em modo interativo (visual)
 
-Este é um curso da **Escola Talking About Testing**.
+     npx cypress run para rodar modo headless
+     ```
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
